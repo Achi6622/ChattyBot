@@ -23,7 +23,7 @@ def speak(this):
     print('- '+str(this))
     subprocess.run(['say', str(this)])
 
-speak('I\'m listening')
+speak('Hi! I\'m Nelson!')
 var = input('> ')
 
 chatting = True
